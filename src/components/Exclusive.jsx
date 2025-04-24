@@ -8,7 +8,7 @@ const RewardsSection = () => {
         <section className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 py-5">
           {/* Left Text */}
           <div>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#691b1b]">
+            <h1 className="text-2xl  md:text-4xl lg:text-5xl font-bold text-[#691b1b]">
               Exclusive Supplier+ Rewards for the first 30 days
             </h1>
           </div>

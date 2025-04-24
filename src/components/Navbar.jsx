@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className='py-6 px-4 md:px-8 container mx-auto'>
+        <div className='py-7 lg:py-10 px-4 md:px-8 container mx-auto'>
             <div className='flex justify-between items-center'>
                 {/* Logo */}
                 <h1 className='text-3xl md:text-4xl lg:text-3xl xl:text-4xl font-bold text-[#5a1515]'>Care Me</h1>
