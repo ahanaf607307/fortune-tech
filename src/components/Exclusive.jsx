@@ -1,41 +1,40 @@
-import React from "react";
 import { AiFillSound } from "react-icons/ai";
 import { FaRegMoneyBill1 } from "react-icons/fa6";
 
-const Exclusive = () => {
+const RewardsSection = () => {
   return (
-    <div className="bg-[#5169f513] my-20">
-      <div className="container mx-auto  ">
-        <section className="grid grid-cols-12 items-center py-6">
-          {/* left */}
-          <div className="col-span-6">
-            <h1 className="text-5xl font-bold text-[#691b1b]">
+    <div className="bg-[#5169f513] my-20 px-4 ">
+      <div className="max-w-7xl mx-auto">
+        <section className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 py-5">
+          {/* Left Text */}
+          <div>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#691b1b]">
               Exclusive Supplier+ Rewards for the first 30 days
             </h1>
           </div>
-          {/* right */}
-          <div className="col-span-6 flex gap-10 ">
-            {/* card 1 */}
-            <div className="flex flex-col bg-white border border-gray-200 p-8 text-start gap-y-4 w-96 relative -top-20 rounded-lg">
-              <AiFillSound className="text-4xl text-[#691b1b] -rotate-45" />
-              <h1 className="text-3xl font-semibold">
+
+          {/* Right Cards */}
+          <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch w-full">
+            {/* Card 1 */}
+            <div className="flex-1 flex flex-col bg-white border border-gray-200 p-6 md:p-8 rounded-lg shadow-sm w-full lg:relative lg:-top-20">
+              <AiFillSound className="text-4xl text-[#691b1b] -rotate-45 mb-2" />
+              <h2 className="text-xl md:text-2xl font-semibold mb-2">
                 Free catalog visibility of ₹600
-              </h1>
-              <p className="text-xl leading-8 text-gray-500">
+              </h2>
+              <p className="text-base md:text-lg text-gray-500 leading-7">
                 Run advertisements for your catalogs to increase the visibility
                 of your products and get more orders. Currently, not available
                 for sellers who don't have a Regular GSTIN.
               </p>
             </div>
 
-            {/* card2 */}
-            <div className="flex flex-col bg-white border border-gray-200 p-8 text-start gap-y-4 w-96 relative top-20 rounded-lg">
-              <FaRegMoneyBill1  className="text-4xl text-[#691b1b] " />
-              <h1 className="text-3xl font-semibold">
-              Free catalog visibility
-              of ₹600
-              </h1>
-              <p className="text-xl leading-8 text-gray-500">
+            {/* Card 2 */}
+            <div className="flex-1 flex flex-col bg-white border border-gray-200 p-6 md:p-8 rounded-lg shadow-sm w-full lg:relative lg:top-20">
+              <FaRegMoneyBill1 className="text-4xl text-[#691b1b] mb-2" />
+              <h2 className="text-xl md:text-2xl font-semibold mb-2">
+                Free catalog visibility of ₹600
+              </h2>
+              <p className="text-base md:text-lg text-gray-500 leading-7">
                 Run advertisements for your catalogs to increase the visibility
                 of your products and get more orders. Currently, not available
                 for sellers who don't have a Regular GSTIN.
@@ -48,4 +47,4 @@ const Exclusive = () => {
   );
 };
 
-export default Exclusive;
+export default RewardsSection;

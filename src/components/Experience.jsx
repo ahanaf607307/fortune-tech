@@ -6,97 +6,89 @@ import { FaCirclePlay } from "react-icons/fa6";
 
 const Experience = () => {
   return (
-    <div className="container mx-auto pb-16">
-      <h1 className="text-center text-[#5a1515] font-semibold text-5xl my-10">
+    <div className="container mx-auto pb-16 px-4">
+      <h1 className="text-center text-[#5a1515] font-semibold text-3xl md:text-4xl lg:text-5xl my-10">
         Experiences suppliers love to talk about
       </h1>
-      <div className="grid grid-cols-3 items-center gap-3">
-        {/* card1 */}
-        <div className=" mx-auto  bg-white rounded-xl border border-gray-500 p-3">
-          <div className=" h-48 w-full relative">
+
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Card 1 */}
+        <div className="bg-white rounded-md border border-gray-300 p-4 relative flex flex-col justify-between">
+          <div className="relative w-full h-52 md:h-56 lg:h-60  rounded-lg">
             <img
               src={c1}
-              alt="Card image"
-              fill
-              className="object-cover rounded-lg"
-              priority
+              alt="Amit and Rajat Jain"
+              className="w-full h-full object-cover rounded-lg"
             />
-            <div>
-              <FaCirclePlay className="text-7xl bg-amber-500 rounded-full p-2 text-[#5a1515] absolute -bottom-28 left-10" />
-            </div>
+            <FaCirclePlay className="absolute  left-6 -bottom-6 sm:left-5 md:-bottom-10 md:left-6 lg:-bottom-12 lg:left-8 text-4xl sm:text-5xl md:text-6xl lg:text-7xl bg-amber-500 rounded-full p-2 text-[#5a1515]" />
           </div>
 
-          <div className="pt-32 pb-8">
-            <h2 className="text-3xl font-bold mb-2 text-[#5a1515]">
+          <div className="pt-16">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 text-[#5a1515]">
               Amit and Rajat Jain
             </h2>
-            <h3 className="text-2xl  text-gray-700 my-5">Smartees, Tiruppur</h3>
-            <p className="text-gray-600 text-xl ">
-              Our business has grown beyond our imagination, getting upto 10,000
-              orders consistently during sale days. We are now constantly
-              bringing new products thanks to Meesho's insights.
+            <h3 className="text-lg sm:text-xl text-gray-700 mb-4">
+              Smartees, Tiruppur
+            </h3>
+            <p className="text-sm sm:text-base md:text-lg text-gray-600">
+              Our business has grown beyond our imagination, getting up to
+              10,000 orders consistently during sale days. We are now
+              constantly bringing new products thanks to Meesho's insights.
             </p>
           </div>
         </div>
-        {/* card1 end*/}
-        {/* card2 */}
-        <div className=" mx-auto  bg-white rounded-xl border border-gray-500 p-3">
-          <div className=" h-48 w-full relative">
+
+        {/* Card 2 */}
+        <div className="bg-white rounded-md border border-gray-300 p-4 relative flex flex-col justify-between">
+          <div className="relative w-full h-52 md:h-56 lg:h-60  rounded-lg">
             <img
               src={c2}
-              alt="Card image"
-              fill
-              className="object-cover rounded-lg"
-              priority
+              alt="Suman"
+              className="w-full h-full object-cover rounded-lg"
             />
-            <div>
-              <FaCirclePlay className="text-7xl bg-amber-500 rounded-full p-2 text-[#5a1515] absolute -bottom-28 left-10" />
-            </div>
+            <FaCirclePlay className="absolute  left-6 -bottom-6 sm:left-5 md:-bottom-10 md:left-6 lg:-bottom-12 lg:left-8 text-4xl sm:text-5xl md:text-6xl lg:text-7xl bg-amber-500 rounded-full p-2 text-[#5a1515]" />
           </div>
 
-          <div className="pt-32 pb-8">
-            <h2 className="text-3xl font-bold mb-2 text-[#5a1515]">Suman</h2>
-            <h3 className="text-2xl  text-gray-700 my-5">
+          <div className="pt-16">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 text-[#5a1515]">
+              Suman
+            </h2>
+            <h3 className="text-lg sm:text-xl text-gray-700 mb-4">
               Keshav Fashion, Hisar
             </h3>
-            <p className="text-gray-600 text-xl ">
-              Our business has grown beyond our imagination, getting upto 10,000
-              orders consistently during sale days. We are now constantly
-              bringing new products thanks to Meesho's insights.
+            <p className="text-sm sm:text-base md:text-lg text-gray-600">
+              Our business has grown beyond our imagination, getting up to
+              10,000 orders consistently during sale days. We are now
+              constantly bringing new products thanks to Meesho's insights.
             </p>
           </div>
         </div>
-        {/* card2 end*/}
-        {/* card3 */}
-        <div className=" mx-auto  bg-white rounded-xl border border-gray-500 p-3">
-          <div className=" h-48 w-full relative">
+
+        {/* Card 3 */}
+        <div className="bg-white rounded-md border border-gray-300 p-4 relative flex flex-col justify-between">
+          <div className="relative w-full h-52 md:h-56 lg:h-60 rounded-lg">
             <img
               src={c3}
-              alt="Card image"
-              fill
-              className="object-cover rounded-lg"
-              priority
+              alt="Mohit Rathi"
+              className="w-full h-full object-cover rounded-lg"
             />
-            <div>
-              <FaCirclePlay className="text-7xl bg-amber-500 rounded-full p-2 text-[#5a1515] absolute -bottom-28 left-10" />
-            </div>
+            <FaCirclePlay className="absolute  left-6 -bottom-6 sm:left-5 md:-bottom-10 md:left-6 lg:-bottom-12 lg:left-8 text-4xl sm:text-5xl md:text-6xl lg:text-7xl bg-amber-500 rounded-full p-2 text-[#5a1515]" />
           </div>
 
-          <div className="pt-32 pb-8">
-            <h2 className="text-3xl font-bold mb-2 text-[#5a1515]">
+          <div className="pt-16">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 text-[#5a1515]">
               Mohit Rathi
             </h2>
-            <h3 className="text-2xl  text-gray-700 my-5">
+            <h3 className="text-lg sm:text-xl text-gray-700 mb-4">
               Meira Jewellery, Ahmedabad
             </h3>
-            <p className="text-gray-600 text-xl ">
-              Our business has grown beyond our imagination, getting upto 10,000
-              orders consistently during sale days. We are now constantly
-              bringing new products thanks to Meesho's insights.
+            <p className="text-sm sm:text-base md:text-lg text-gray-600">
+              Our business has grown beyond our imagination, getting up to
+              10,000 orders consistently during sale days. We are now
+              constantly bringing new products thanks to Meesho's insights.
             </p>
           </div>
         </div>
-        {/* card3 end*/}
       </div>
     </div>
   );

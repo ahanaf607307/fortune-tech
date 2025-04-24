@@ -25,7 +25,7 @@ function App() {
       <HowItWorks/>
       <PopularCategories/>
       <Contact/>
-      <Footer/>
+      {/* <Footer/>  */}
     </div>
   )
 }
