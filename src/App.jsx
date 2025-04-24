@@ -8,17 +8,23 @@ import WhySuppliers from './components/WhySuppliers'
 import Exclusive from './components/Exclusive'
 import Experience from './components/Experience'
 import Footer from './components/Footer'
+import PopularCategories from './components/PopularCategories'
+import Contact from './components/Contact'
+import HowItWorks from './components/HowItWorks'
 
 function App() {
 
   return (
-    <div className='font-roboto flex flex-col gap-y-10 '>
+    <div className='font-roboto  '>
       <Navbar/>
       <Banner/>
       <TotalSection/>
       <WhySuppliers/>
       <Exclusive/>
       <Experience/>
+      <HowItWorks/>
+      <PopularCategories/>
+      <Contact/>
       <Footer/>
     </div>
   )
