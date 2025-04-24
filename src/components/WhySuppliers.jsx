@@ -11,7 +11,7 @@ const WhySuppliers = () => {
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#5f1727]">
           Why Suppliers Love Care Me
         </h1>
-        <p className="text-xl lg:text-2xl font-semibold text-justify  text-gray-500 mt-4">
+        <p className="text-xl lg:text-2xl font-medium text-justify  text-gray-500 mt-4">
           All the benefits that come with selling on Care Me are designed to
           help you sell more, and make it easier to grow your business.
         </p>
@@ -23,10 +23,10 @@ const WhySuppliers = () => {
             <FaHandHoldingWater className="text-3xl md:text-4xl lg:text-5xl text-[#5f1727]" />
           </div>
           <div>
-            <h1 className="font-semibold text-xl lg:text-3xl">
+            <h1 className="font-semibold text-xl lg:text-3xl mb-3">
               0% Commission Fee
             </h1>
-            <p className="text-sm md:text-xl text-gray-700">
+            <p className="text-sm md:text-lg text-gray-500">
               Suppliers selling on Meesho keep 100% of their profit by not
               paying any commission
             </p>
@@ -39,8 +39,8 @@ const WhySuppliers = () => {
             <RiMoneyDollarCircleFill className="text-3xl md:text-4xl lg:text-5xl text-[#5f1727]" />
           </div>
           <div>
-            <h1 className="font-semibold text-xl lg:text-3xl">0 Penalty Charges</h1>
-            <p className="text-sm md:text-xl text-gray-700">
+            <h1 className="font-semibold text-xl lg:text-3xl mb-3">0 Penalty Charges</h1>
+            <p className="text-sm md:text-lg text-gray-500">
               Suppliers selling on Meesho keep 100% of their profit by not
               paying any commission
             </p>
@@ -53,10 +53,10 @@ const WhySuppliers = () => {
             <FaLevelUpAlt className="text-3xl md:text-4xl lg:text-5xl text-[#5f1727]" />
           </div>
           <div>
-            <h1 className="font-semibold text-xl lg:text-3xl">
+            <h1 className="font-semibold text-xl lg:text-3xl mb-3">
               Growth for Every Supplier
             </h1>
-            <p className="text-sm md:text-xl text-gray-700">
+            <p className="text-sm md:text-lg text-gray-500">
               From small to large and unbranded to branded, and now open for
               Sellers who don't have a Regular GSTIN too, Meesho fuels growth
               for all suppliers.
@@ -70,18 +70,18 @@ const WhySuppliers = () => {
             <FaHandshake className="text-3xl md:text-4xl lg:text-5xl text-[#5f1727]" />
           </div>
           <div>
-            <h1 className="font-semibold text-xl lg:text-3xl">Ease of Doing Business</h1>
+            <h1 className="font-semibold text-xl lg:text-3xl mb-3">Ease of Doing Business</h1>
             <ul className="mt-2">
-              <li className="flex gap-x-2">
-                <LuArrowUpRight className="text-xl text-gray-800 " />
+              <li className="flex gap-x-2 text-gray-500">
+                <LuArrowUpRight className="text-xl text-[#5f1727] " />
                 Easy Product Listing
               </li>
-              <li className="flex gap-x-2">
-                <LuArrowUpRight className="text-xl text-gray-800 " />
+              <li className="flex gap-x-2 text-gray-500">
+                <LuArrowUpRight className="text-xl text-[#5f1727] " />
                 Lowest Cost Shipping
               </li>
-              <li className="flex gap-x-2">
-                <LuArrowUpRight className="text-xl text-gray-800 " />
+              <li className="flex gap-x-2 text-gray-500">
+                <LuArrowUpRight className="text-xl text-[#5f1727] " />
                 7-Day Payment Cycle from the delivery date
               </li>
             </ul>
