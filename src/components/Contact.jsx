@@ -3,7 +3,7 @@ import { CiMail } from "react-icons/ci";
 
 const Contact = () => {
   return (
-    <div className="bg-[#5169f513] py-16 md:py-24 px-4">
+    <div className="bg-[#5169f513] py-16 md:py-24 px-4 mb-20 md:mb-24">
       <div className="grid grid-cols-1 md:grid-cols-12 container mx-auto gap-8 items-center">
         {/* Left side */}
         <div className="md:col-span-6">

@@ -5,7 +5,7 @@ import { RiMoneyDollarCircleFill } from "react-icons/ri";
 
 const WhySuppliers = () => {
   return (
-    <div className="container mx-auto flex flex-col lg:flex-row gap-y-10 lg:justify-between  lg:gap-y-0 p-5 items-center">
+    <div className="container mx-auto flex flex-col lg:flex-row gap-y-10 lg:justify-between pb-16  lg:gap-y-0 p-5 items-center">
       {/* left */}
       <div className=" lg:pr-20 w-full flex flex-col justify-center text-center lg:text-start ">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#5f1727]">

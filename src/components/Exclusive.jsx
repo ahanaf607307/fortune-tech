@@ -3,7 +3,7 @@ import { FaRegMoneyBill1 } from "react-icons/fa6";
 
 const RewardsSection = () => {
   return (
-    <div className="bg-[#5169f513] my-20 px-4 ">
+    <div className="bg-[#5169f513] mt-2 lg:mt-20 mb-14 lg:mb-32 px-4 ">
       <div className="max-w-7xl mx-auto">
         <section className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 py-5">
           {/* Left Text */}

@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="h-[1px] bg-white w-full my-12 "></div>
 
         {/* Footer Bottom */}
-        <div className="mt-12 text-center text-white text-xl  md:text-3xl">
+        <div className="mt-12 text-center text-white text-xl  md:text-2xl">
           © 2015 Care Me. All Rights Reserved.
         </div>
       </footer>

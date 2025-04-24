@@ -37,7 +37,7 @@ const Navbar = () => {
             {/* Mobile Menu system */}
             {isOpen && (
                 <div className='lg:hidden mt-4 space-y-4'>
-                    <ul className='flex flex-col gap-y-3 text-base font-medium'>
+                    <ul className='flex flex-col gap-y-3 text-base items-center font-medium'>
                         <li>Sell Online</li>
                         <li>How it works</li>
                         <li>Pricing & Commission</li>

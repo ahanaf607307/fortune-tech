@@ -5,10 +5,10 @@ import bannerImage from "../assets/bannerImage.png";
 const Banner = () => {
   return (
     <>
-      <div className="bg-[#fde8de] overflow-hidden">
+      <div className="bg-[#fde8de] overflow-hidden mb-7">
         <div className="grid grid-cols-1 md:grid-cols-12 items-center">
           {/* left */}
-          <div className="flex flex-col  p-8 md:pl-10  xl:pl-28 col-span-1 md:col-span-6 space-y-6 container mx-auto">
+          <div className="flex flex-col  p-8 md:pl-10  xl:pl-28 2xl:pl-52  col-span-1 md:col-span-6 space-y-6 container mx-auto">
             <h1 className="text-3xl md:text-4xl lg:text-4xl leading-tight font-extrabold ">
               Sell online to 14 Cr+ customers at{" "}
               <span className="text-[#5f1727]">0% Commission</span>

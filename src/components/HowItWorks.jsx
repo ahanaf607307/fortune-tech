@@ -10,7 +10,7 @@ import {
 const HowItWorks = () => {
   return (
     <div className="container mx-auto pb-16 px-4">
-      <h1 className="text-3xl md:text-4xl lg:text-5xl pb-10 font-extrabold text-center leading-16 text-[#691b1b]">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl pb-7 font-extrabold text-center leading-16 text-[#691b1b]">
         How it works
       </h1>
 
@@ -25,7 +25,7 @@ const HowItWorks = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mt-6 mb-3">
             Create Account
           </h2>
-          <p className="text-base md:text-lg lg:text-xl">All you need is</p>
+          <p className="text-base md:text-lg lg:text-xl">All you need is :</p>
           <ul className="list-disc text-base md:text-lg lg:text-xl pl-5 md:pl-8">
             <li>
               GSTIN (for GST sellers) or Enrolment ID / UIN (for non GST sellers)
